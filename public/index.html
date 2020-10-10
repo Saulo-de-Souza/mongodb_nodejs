@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+
+    <title>MongoDb com NodeJS</title>
+  </head>
+  <body>
+
+    <fieldset>
+        <legend>Criar</legend>
+        <div class="content"><label for="name_criar">Nome: </label><input type="text" id="name_criar" name="name" autocomplete="off"  /></div>
+        <div class="content"><label for="size_criar">Tamanho: </label><input type="text" id="size_criar" name="size" autocomplete="off"  /></div>
+        <div class="content"><input type="button" value="Criar" id="bt_criar" /></div>
+    </fieldset>
+   
+    <fieldset>
+        <legend>Editar</legend>
+        <div class="content"><label for="id_editar">Id: </label><input type="text" id="id_editar" name="id" autocomplete="off" /></div>
+        <div class="content"><label for="name_editar">Nome: </label><input type="text" id="name_editar" name="name" autocomplete="off"  /></div>
+        <div class="content"><label for="size_editar">Tamanho: </label><input type="text" id="size_editar" name="size" autocomplete="off"  /></div>
+        <div class="content"><input type="button" value="Editar" id="bt_editar" /></div>
+    </fieldset>
+   
+    <fieldset>
+        <legend>Excluir</legend>
+        <div class="content"><label for="id_excluir">Id: </label><input type="text" id="id_excluir" name="id" autocomplete="off" /></div>
+        <div class="content"><input type="button" value="Excluir" id="bt_excluir" /></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Listar</legend>
+        <input type="button" value="Listar" id="bt_listar" />
+        <div id="lista"></div>
+    </fieldset>
+
+    
+    <div id="lista"></div>
+  </body>
+</html>

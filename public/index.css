@@ -1,0 +1,29 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+fieldset {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width:700px;
+  margin: 0px auto;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="text"] {
+  width:550px;
+}
